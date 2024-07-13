@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <!-- <title>Happy Birthday Varshu ❤️</title> -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <div class="paper">
+    <p>Dekho mein shayar toh nahi </p>
+    <p>but tumhe kuch pal yaad dilana chahta tha</p>
+    <p>agar thoda sa bhi kar paaya toh kamiyab hogaya</p>
+  </div>
+
+  <div class="paper image">
+    <p>Rahi baat manzil ki toh voh toh milni hi hai chal ab enjoy</p>
+    <img src="images/15.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Par keep your nature up and keep going with your values. Vohi toh beauty hai</p>
+    <img src="images/14.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>I know sari photos and sari kahani nahi aapayi hai</p>
+    <img src="images/13.jpg" />
+  </div>  
+
+  <div class="paper image">
+    <p>Par asli sundarta toh yaha hai. Varsha in her prime and love for chai</p>
+    <img src="images/12.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Aur tumhara photoshoot jo insta ki dp bhi hai aka I am also a photographer ya Tum anyways sundar ho</p>
+    <img src="images/11.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <img src="images/10.jpg" />
+    <p>Yeh photo click karte samme bhaiya aagaye th and fir unne apan dono ki click ki remember</p>
+  </div>  
+
+
+  <div class="paper image">
+    <p>Yaad aarahe hai kya ? Diwali ke voh pal</p>
+    <img src="images/9.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Aur maze bhi toh mere sath hi karti ho</p>
+    <img src="images/8.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Phool ke sath ekdam 18s 19s ki heroine lagti ho</p>
+    <img src="images/7.jpg" />
+  </div>  
+
+  <div class="paper image">
+    <p>Let's go to diwali jaha pehli baar mere lot se mile and campus bhi dhang se ghuma but most importantly pehli pooja sath mein</p>
+    <img src="images/6.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Chalo ab thodi khudki shakal taadlo</p>
+    <img src="images/5.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Yeh yaad hai thak gaye th tum walk kar karke and shoulder pe tum sogaye sukooooon</p>
+    <img src="images/4.jpg" />
+  </div>  
+  
+  <div class="paper image">
+    <p>Date 2 in blr, This time i got a better dress. Remeber jab apan kiss kar rahe th tab bike pe bande ne roka fir apane thoda aage gaye and fir karne lag gaye</p>
+    <img src="images/3.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Chalo jo tha badiya tha atleast pata chala ki Taco pasand hai tumhe</p>
+    <img src="images/2.jpg" />
+  </div>
+  
+  <div class="paper image">
+    <p>Yaad hai Blr ki first date jismein tune meri dress ki bahot udai PS: Pura bheeg gaya tha main as jaldi aane ke liye bike leli</p>
+    <img src="images/1.jpg" />
+  </div>
+
+<div class="paper red">
+  <p>Chal thodi memory lane hojaye</p>
+</div>
+
+<div class="paper">
+<p>Dekho Meri simple sadhi ladki</p>
+  <p>20 saal ki hogayi<span style="color: red !important;">❤️</span></p>
+</div>
+
+<div class="paper">
+<p>Happy Birthday Varshu</p>
+</div>
+
+<script>
+  function loadScript(src) {
+    let script = document.createElement('script');
+    script.src = src;
+    document.head.appendChild(script);
+  }
+
+  if (window.innerWidth <= 768) { // Assuming mobile screens are 768px or less
+    loadScript('./mobile.js');
+  } else {
+    loadScript('./script.js');
+  }
+
+  // Optional: Re-evaluate on window resize (if needed)
+  window.addEventListener('resize', function() {
+    if (window.innerWidth <= 768 && !document.querySelector('script[src="./mobile.js"]')) {
+      loadScript('./mobile.js');
+    } else if (window.innerWidth > 768 && !document.querySelector('script[src="./script.js"]')) {
+      loadScript('./script.js');
+    }
+  });
+</script>
+</body>
+</html>
